@@ -1,20 +1,38 @@
-const HEADER = "Nixalar";
+const HEADER = "vlv | vivid lemon ventures";
 
 const NAVBAR_DATA = [
   { id: 1, url: "/", label: "Home" },
-  { id: 2, url: "#services", label: "Services" },
-  { id: 3, url: "#about-us", label: "About us" },
+  { id: 2, url: "#about-us", label: "About us" },
+  { id: 3, url: "#services", label: "Services" },
   { id: 4, url: "#testimonials", label: "Testimonials" },
-  { id: 5, url: "#footer", label: "Contacts" }
+  { id: 5, url: "#footer", label: "Pitch Us" }
 ];
 const BANNER_DATA = {
-  HEADING: "Go digital with nixalar",
-  DECRIPTION:
-    "Nixalar can help you skyrocket the ROI of your marketing campaign without having to spend tons of money or time to assemble an in-house team.",
+  HEADING: "Get vivid with vlv",
+  DESCRIPTION:
+    "At vlv, we know not everyone is cut out for startups. There are easier ways to make a living. Yet you insist. Bet on the underdog. Defy the odds. Defer the niceties that others take for granted. That’s why we celebrate entrepreneurs. We have founded startups, worked at startups, and honor startups. We know it’s not just a job. It’s your dream and life’s work.",
   TUTORIAL_URL:
     "https://www.thinkwithgoogle.com/intl/en-gb/marketing-resources/programmatic/google-digital-academy/",
-  WATCH_TUTORIAL: "Watch Tutorials"
+  WATCH_TUTORIAL: "Watch How We Turn Lemons into Chello"
 };
+
+const ABOUT_DATA = {
+  HEADING: "Your Vision. Fully Vivid.",
+  TITLE: "Why we're different",
+  DESCRIPTION:
+  "We are thesis investors, which means we focus on select investment themes—including fintech, marketplaces, digital health, new enterprise, and more. Are these the only areas in which we invest? No. But these are the domains we believe we have the deepest knowledge and strongest networks.",
+  IMAGE_URL: "images/network.png",
+  WHY_CHOOSE_US_LIST: [
+    "We provides Cost-Effective Digital Marketing than Others.",
+    "High customer statisfaction and experience.",
+    "Marketing efficiency and quick time to value.",
+    "Clear & transparent fee structure.",
+    "We provide Marketing automation which is an integral platform that ties all of your digital marketing together.",
+    "A strong desire to establish long lasting business partnerships.",
+    "Plug-N-Play Partnerships."
+  ]
+};
+
 const SERVICE_DATA = {
   HEADING: "Our Services",
   ALL_SERVICES: "All Services",
@@ -40,37 +58,22 @@ const SERVICE_DATA = {
   ]
 };
 
-const ABOUT_DATA = {
-  HEADING: "Why choose us?",
-  TITLE: "Why we're different",
-  IMAGE_URL: "images/network.png",
-  WHY_CHOOSE_US_LIST: [
-    "We provides Cost-Effective Digital Marketing than Others.",
-    "High customer statisfaction and experience.",
-    "Marketing efficiency and quick time to value.",
-    "Clear & transparent fee structure.",
-    "We provides Marketing automation which is an integral platform that ties all of your digital marketing together.",
-    "A strong desire to establish long lasting business partnerships.",
-    "Provide digital marketing to mobile consumer.",
-    "We provides wide range to services in reasonable prices"
-  ]
-};
 const TESTIMONIAL_DATA = {
-  HEADING: "What clients say?",
+  HEADING: "What are people saying about vlv?",
   TESTIMONIAL_LIST: [
     {
       DESCRIPTION:
-        "Nixalar has made a huge difference to our business with his good work and knowledge of SEO and business to business marketing techniques. Our search engine rankings are better than ever and we are getting more people contacting us thanks to Jomer’s knowledge and hard work.",
+        "We just wanted to say “Thank You” to you guys for everything that you’ve done. You’ve literally built our website, and through thick and thin, ups and downs; there have been way more amazing things than there have been problems. The bottom line is, you’ve allowed us to have a ship that’s brought in 6 Mil and it’s just getting started. … On behalf of myself and everybody in this room and we love you guys just want to say THANK YOU.",
       IMAGE_URL: "images/user1.jpg",
-      NAME: "Julia hawkins",
-      DESIGNATION: "Co-founder at ABC"
+      NAME: "Chris Stoikos",
+      DESIGNATION: "Co-founder at DBC"
     },
     {
       DESCRIPTION:
-        "Nixalar and his team have provided us with a comprehensive, fast and well planned digital marketing strategy that has yielded great results in terms of content, SEO, Social Media. His team are a pleasure to work with, as well as being fast to respond and adapt to the needs of your brand.",
+        "After raising over 425k with a successful Indiegogo Campaign, the vision grew to display the Coolbox’s product on a digital landscape, an Episode of ABC’s Shark Tank. Utilizing vlv's creative designs and innovation they implemented a simple, yet to the point site the that could handle the vast amounts of traffic it was expecting for their upcoming Shark Tank episode in their extremely short deadline.",
       IMAGE_URL: "images/user2.jpg",
-      NAME: "John Smith",
-      DESIGNATION: "Co-founder at xyz"
+      NAME: "Alex Brown",
+      DESIGNATION: "Co-founder at CoolBox"
     }
   ]
 };
@@ -91,10 +94,10 @@ const FOOTER_DATA = {
   DESCRIPTION:
     "We are typically focused on result-based maketing in the digital world. Also, we evaluate your brand’s needs and develop a powerful strategy that maximizes profits.",
   CONTACT_DETAILS: {
-    HEADING: "Contact us",
-    ADDRESS: "La trobe street docklands, Melbourne",
-    MOBILE: "+1 61234567890",
-    EMAIL: "nixalar@gmail.com"
+    HEADING: "Pitch us",
+    ADDRESS: "Join our Slack",
+    MOBILE: "(760) 749-9197",
+    EMAIL: "get@vlvme.com"
   },
   SUBSCRIBE_NEWSLETTER: "Subscribe newsletter",
   SUBSCRIBE: "Subscribe"
@@ -104,8 +107,8 @@ const MOCK_DATA = {
   HEADER,
   NAVBAR_DATA,
   BANNER_DATA,
-  SERVICE_DATA,
   ABOUT_DATA,
+  SERVICE_DATA,
   TESTIMONIAL_DATA,
   SOCIAL_DATA,
   FOOTER_DATA

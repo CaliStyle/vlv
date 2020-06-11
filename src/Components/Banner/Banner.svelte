@@ -1,6 +1,6 @@
 <script>
   export let bannerData = {};
-  const { HEADING, DECRIPTION, TUTORIAL_URL, WATCH_TUTORIAL } = bannerData;
+  const { HEADING, DESCRIPTION, TUTORIAL_URL, WATCH_TUTORIAL } = bannerData;
 </script>
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
@@ -10,14 +10,14 @@
     <div class="row">
       <div class="col-md-6">
         <h1>{HEADING}</h1>
-        <p>{DECRIPTION}</p>
+        <p>{DESCRIPTION}</p>
         <a href={TUTORIAL_URL} target="_blank" class="light-color">
           <i class="far fa-play-circle fa-2x watch-btn" />
           {WATCH_TUTORIAL}
         </a>
       </div>
       <div class="col-md-6">
-        <img src="images/home.png" alt="" class="img-fluid" />
+        <img src="images/home1.png" alt="" class="img-fluid" />
       </div>
     </div>
   </div>

@@ -1,16 +1,17 @@
 <script>
   export let aboutData = {};
-  const { HEADING, TITLE, IMAGE_URL, WHY_CHOOSE_US_LIST } = aboutData;
+  const { HEADING, TITLE, DESCRIPTION, IMAGE_URL, WHY_CHOOSE_US_LIST } = aboutData;
 </script>
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
-<section id="about-us" class="section grey-bgcolor">
+<section id="about-us" class="section">
   <div class="container">
     <h2 class="title text-center">{HEADING}</h2>
     <div class="row section-body">
       <div class="col-md-6">
         <h3 class="about-title">{TITLE}</h3>
+        <p>{DESCRIPTION}</p>
         <ul>
           {#each WHY_CHOOSE_US_LIST as list}
             <li>{list}</li>
