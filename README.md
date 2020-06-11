@@ -1,11 +1,16 @@
-## Nixalar - Digital Agency One Page Template
+## vlvme - Venture Capital Digital Agency
 
 We have build this template using `Svelte 3`, `Bootstrap 4`, and 'font-awsome`
 
-### You can look at the template at below URL
+### Run the project
+Now our project is ready. let's run the project using the following command.
 
-https://nixalar-digital-agency.now.sh/
+npm install
+
+npm run dev
+
+Go to http://localhost:5000/. You will see the following output
 
 ### Template design
 
-<img src="https://raw.githubusercontent.com/karkranikhil/Digital-Agency-using-svelte/master/public/images/complete.png">
+<!-- <img src="#"> -->
